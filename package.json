@@ -1,0 +1,29 @@
+{
+  "name": "lottery",
+  "version": "1.0.0",
+  "description": "",
+  "main": "compile.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glen-s-abraham/solidity-lottery.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/glen-s-abraham/solidity-lottery/issues"
+  },
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^2.1.15",
+    "dotenv": "^16.4.5",
+    "ganache": "^7.9.2",
+    "mocha": "^10.4.0",
+    "solc": "^0.4.17",
+    "web3": "^4.8.0"
+  }
+}
